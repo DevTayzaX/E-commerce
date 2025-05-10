@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale = 1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="./img/logo.png" width="105px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="./img/shopping_cart.png" width="30px" height="30px">
+            <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>Give Your Workout <br> A New Style!</h1>
+                <p>Suceess isn't always greatness. 
+                   It's about consistency. 
+                   Consistent <br> hard work gain success. 
+                   Greatness will come
+                </p>
+                <a href="" class="btn">Explore Now &#8594;</a>
+            </div>
+            <div class="col-2">
+                <img src="./img/shopping-bag-cart.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Featured Categories  -->
+ <div class="categories">
+    <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="./img/category1.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="./img/category2.webp" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="img/razor.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="./img/category1.jpg" alt="">
+                <h4>Xbox</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>£50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/bag.png" alt="">
+                <h4>Xox</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>£50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/razor.jpeg" alt="">
+                <h4>Xox</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>£50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/shoes-1.png" alt="">
+                <h4>Xox</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>£50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/shoes-2.png" alt="">
+                <h4>Xox</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>£50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/shoes-3.png" alt="">
+                <h4>Xox</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>£50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/category1.jpg" alt="">
+                <h4>Xbox</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>£50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/category2.webp" alt="">
+                <h4>Xbox</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <p>£50.00</p>
+            </div>
+        </div>
+        <h2 class="title">Lastest Product</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="./img/category1.jpg" alt="">
+                <h4>Xbox</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>£50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/bag.png" alt="">
+                <h4>Xox</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>£50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/razor.jpeg" alt="">
+                <h4>Xox</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>£50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/shoes-1.png" alt="">
+                <h4>Xox</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>£50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/shoes-2.png" alt="">
+                <h4>Xox</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>£50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/shoes-3.png" alt="">
+                <h4>Xox</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>£50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/category1.jpg" alt="">
+                <h4>Xbox</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>£50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/category2.webp" alt="">
+                <h4>Xbox</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <p>£50.00</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Offer -->
+ <div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="./img/Offer.jpg" class="offer-img" style="padding: 15px; border-radius: 50px;">
+            </div>
+            <div class="col-2">
+                <p>Exclusively on Burmese Store</p>
+                <h1>Adidas Shoes</h1>
+                <small>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Suscipit porro, sequi autem ad nisi fugit sint earum corporis totam adipisci repudiandae assumenda molestias similique, amet ducimus commodi magni! Blanditiis, earum.
+                </small>
+                <a href="" class="btn">Buy Now &#8594;</a>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!-- testimonial -->
+  <div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam at consequuntur adipisci aliquid iste dicta fugiat nemo consequatur ex, beatae labore, nihil corporis sunt harum.</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <img src="./img/photo_2025-04-30_11-23-52.jpg" alt="">
+                <h3>Myo Myat Thwe</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam at consequuntur adipisci aliquid iste dicta fugiat nemo consequatur ex, beatae labore, nihil corporis sunt harum.</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <img src="./img/photo_2025-04-30_12-08-14.jpg" alt="">
+                <h3>Tayza Htoo</h3>
+            </div>
+        </div>
+    </div>
+  </div>
+<!-- brand -->
+ <div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="./img/Converse.png">
+            </div>
+            <div class="col-5">
+                <img src="./img/Converse.png">
+            </div>
+            <div class="col-5">
+                <img src="./img/Converse.png">
+            </div>
+            <div class="col-5">
+                <img src="./img/Converse.png">
+            </div>
+            <div class="col-5">
+                <img src="./img/Converse.png">
+            </div>
+        </div>
+    </div>
+ </div>
+ <!-- footer -->
+  <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and IOS mobile phone</p>
+                <div class="app-logo">
+                    <img src="./img/playstore.png" alt="">
+                    <img src="./img/app-store.png" alt="">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="./img/logo.png" alt="">
+                <p>Download App for Android and IOS mobile phone</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Posts</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright 2020 - Burmese Store</p>
+  </div>
+  <!-- js -->
+   <script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight = "0px")
+    {
+        MenuItems.style.maxHeight = "200px"
+    }
+    else {
+        MenuItems.style.maxHeight = "0px"
+    }
+    }
+   </script>
+</body>
+</html>
